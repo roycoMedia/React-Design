@@ -10,7 +10,7 @@ import WhyUs from './components/whyus/WhyUs';
 
 function App() {
   return (
-    <div>
+    <div className='scrollbar-thin scrollbar-thumb-baseColor scrollbar-track-black h-[100vh]'>
       <Navbar />
       <HeroSection />
       <Services />
@@ -24,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-// mmm
